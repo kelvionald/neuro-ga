@@ -15,11 +15,11 @@ values_neurons_num = list(range(30, 50)) if debug else list(range(30, 100))
 values_layers_num = list(range(1, 3)) if debug else list(range(1, 5))
 values_activation_type = [
     'relu',
-    # 'tanh',
-    # 'elu',
-    # 'selu',
-    # 'sigmoid',
-    # 'exponential'
+    'tanh',
+    'elu',
+    'selu',
+    'sigmoid',
+    'exponential'
 ]
 values_epochs_num = list(range(1, 3)) if debug else list(range(1, 5))
 
@@ -48,8 +48,18 @@ print(x_test.shape[0], "test samples")
 y_train = keras.utils.to_categorical(y_train)  # , num_classes)
 y_test = keras.utils.to_categorical(y_test)  # , num_classes)
 
+ignore_mutation_gens = set()
 
 def getGen(pos):
+    if pos in ignore_mutation_gens:
+        if pos == 0:
+            return 50
+        elif pos == 1:
+            return 3
+        elif pos == 2:
+            return 'relu'
+        elif pos == 3:
+            return 3
     if pos == 0:
         return random.choice(values_neurons_num)
     elif pos == 1:
@@ -194,8 +204,7 @@ def operator_mutation(chromosomes):
             count_mutants += 1
             len_cromosome = len(chromosome)
             crossing = np.random.randint(0, len_cromosome)
-            mutation_gen = getGen(crossing)
-            chromosome[crossing] = mutation_gen
+            chromosome[crossing] = getGen(crossing)
             new_chromosomes.append(chromosome)
         else:
             new_chromosomes.append(chromosome)
