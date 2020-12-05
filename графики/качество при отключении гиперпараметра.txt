@@ -1,1 +1,458 @@
  [0, 1, 2, 3] [0.9485899865627289, 0.9524000287055969, 0.9508000016212463, 0.9508000016212463]
+
+ [37m[40mMicrosoft Windows [Version 10.0.18363.1198]                                                          [m
+[37m[40m(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.                         [m
+[37m[40m                                                                                                     [m
+[37m[40mD:\projects\neuro-ga>python disable_param.py                                                         [m
+[37m[40mx_train shape: (60000, 784)                                                                          [m
+[37m[40m60000 train samples                                                                                  [m
+[37m[40m10000 test samples                                                                                   [m
+[37m[40mWARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\ops\resource_var[m
+[37m[40miable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be remo[m
+[37m[40mved in a future version.                                                                             [m
+[37m[40mInstructions for updating:                                                                           [m
+[37m[40mColocations handled automatically by placer.                                                         [m
+[37m[40mWARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:[m
+[37m[40m3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future ve[m
+[37m[40mrsion.                                                                                               [m
+[37m[40mInstructions for updating:                                                                           [m
+[37m[40mUse tf.cast instead.                                                                                 [m
+[37m[40m2020-12-05 21:44:40.493529: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports in[m
+[37m[40mstructions that this TensorFlow binary was not compiled to use: AVX AVX2                             [m
+[37m[40m2020-12-05 21:44:40.508072: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread [m
+[37m[40mpool with default inter op setting: 8. Tune using inter_op_parallelism_threads for best performance. [m
+[37m[40mRESULT: n: 45 l: 1 f: tanh e: 1 acc: 92.18% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 2 f: sigmoid e: 2 acc: 90.92% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 2 f: sigmoid e: 2 acc: 92.04% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 42 l: 1 f: exponential e: 1 acc: 93.3% mut: 30%                                           [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 2 f: selu e: 1 acc: 92.47% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 42 l: 1 f: sigmoid e: 2 acc: 91.97% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: selu e: 2 acc: 93.8% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 46 l: 2 f: elu e: 1 acc: 92.94% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: selu e: 1 acc: 92.25% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 44 l: 1 f: tanh e: 2 acc: 93.73% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40m---- INITIALIZED ----                                                                                [m
+[37m[40m0 set() True                                                                                         [m
+[37m[40m0 set() True                                                                                         [m
+[37m[40mRESULT: n: 31 l: 2 f: selu e: 2 acc: 93.72% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: sigmoid e: 2 acc: 90.92% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 2 f: elu e: 1 acc: 92.68% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mforrtl: error (200): program aborting due to control-C event                                         [m
+[37m[40mImage              PC                Routine            Line        Source                           [m
+[37m[40mlibifcoremd.dll    00007FFA5DB03B58  Unknown               Unknown  Unknown                          [m
+[37m[40mKERNELBASE.dll     00007FFAD41F62A3  Unknown               Unknown  Unknown                          [m
+[37m[40mKERNEL32.DLL       00007FFAD5577C24  Unknown               Unknown  Unknown                          [m
+[37m[40mntdll.dll          00007FFAD6A4D4D1  Unknown               Unknown  Unknown                          [m
+[37m[40m                                                                                                     [m
+[37m[40mD:\projects\neuro-ga>python disable_param.py                                                         [m
+[37m[40mx_train shape: (60000, 784)                                                                          [m
+[37m[40m60000 train samples                                                                                  [m
+[37m[40m10000 test samples                                                                                   [m
+[37m[40mWARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\ops\resource_var[m
+[37m[40miable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be remo[m
+[37m[40mved in a future version.                                                                             [m
+[37m[40mInstructions for updating:                                                                           [m
+[37m[40mColocations handled automatically by placer.                                                         [m
+[37m[40mWARNING:tensorflow:From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\ops\math_ops.py:[m
+[37m[40m3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future ve[m
+[37m[40mrsion.                                                                                               [m
+[37m[40mInstructions for updating:                                                                           [m
+[37m[40mUse tf.cast instead.                                                                                 [m
+[37m[40m2020-12-05 21:45:43.626094: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports in[m
+[37m[40mstructions that this TensorFlow binary was not compiled to use: AVX AVX2                             [m
+[37m[40m2020-12-05 21:45:43.640360: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread [m
+[37m[40mpool with default inter op setting: 8. Tune using inter_op_parallelism_threads for best performance. [m
+[37m[40mRESULT: n: 44 l: 2 f: tanh e: 2 acc: 94.55% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 2 f: relu e: 2 acc: 94.77% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 2 f: sigmoid e: 2 acc: 92.0% mut: 30%                                               [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 1 f: tanh e: 2 acc: 93.45% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: elu e: 2 acc: 94.35% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 2 f: relu e: 2 acc: 94.06% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 2 f: elu e: 1 acc: 92.33% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 30 l: 2 f: sigmoid e: 1 acc: 87.26% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 40 l: 1 f: exponential e: 1 acc: 93.12% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40m---- INITIALIZED ----                                                                                [m
+[37m[40mRESULT: n: 44 l: 2 f: elu e: 2 acc: 94.06% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: tanh e: 2 acc: 94.48% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 1 f: tanh e: 1 acc: 92.11% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 2 f: elu e: 2 acc: 94.31% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 30 l: 2 f: sigmoid e: 2 acc: 90.95% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: tanh e: 1 acc: 92.72% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 2 f: elu e: 2 acc: 94.56% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 1                                                                                              [m
+[37m[40mCURR BEST: n: 33 l: 2 f: relu e: 2 acc: 94.77% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 33 l: 2 f: relu e: 2 acc: 94.77% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 33 l: 2 f: tanh e: 2 acc: 94.05% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: relu e: 2 acc: 94.47% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 2 f: elu e: 2 acc: 94.09% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 2                                                                                              [m
+[37m[40mCURR BEST: n: 33 l: 2 f: relu e: 2 acc: 94.77% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 33 l: 2 f: relu e: 2 acc: 94.77% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 43 l: 1 f: relu e: 2 acc: 93.62% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: exponential e: 2 acc: 93.48% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 2 f: relu e: 2 acc: 94.6% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 3                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 44 l: 2 f: exponential e: 2 acc: 94.37% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 2 f: selu e: 2 acc: 93.44% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 1 f: relu e: 2 acc: 93.45% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 2 f: elu e: 2 acc: 93.69% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 4                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 33 l: 2 f: relu e: 1 acc: 93.27% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 5                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 6                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 44 l: 1 f: relu e: 2 acc: 93.8% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 42 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 7                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 44 l: 2 f: sigmoid e: 2 acc: 92.25% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 8                                                                                              [m
+[37m[40mCURR BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 44 l: 2 f: relu e: 2 acc: 94.81% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 46 l: 2 f: relu e: 2 acc: 95.2% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 36 l: 2 f: relu e: 2 acc: 94.23% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 9                                                                                              [m
+[37m[40mCURR BEST: n: 46 l: 2 f: relu e: 2 acc: 95.2% mut: 30%                                               [m
+[37m[40mALL  BEST: n: 46 l: 2 f: relu e: 2 acc: 95.2% mut: 30%                                               [m
+[37m[40m--------                                                                                             [m
+[37m[40mxMut, yMut [0] [0.9485899865627289]                                                                  [m
+[37m[40mRESULT: n: 39 l: 1 f: elu e: 2 acc: 93.38% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: elu e: 2 acc: 93.44% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 33 l: 1 f: exponential e: 2 acc: 94.65% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 2 f: relu e: 1 acc: 93.15% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 1 f: elu e: 2 acc: 93.41% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 30 l: 1 f: sigmoid e: 2 acc: 91.51% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 2 f: relu e: 1 acc: 93.38% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: relu e: 1 acc: 92.48% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 41 l: 1 f: exponential e: 1 acc: 93.52% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40m---- INITIALIZED ----                                                                                [m
+[37m[40mRESULT: n: 39 l: 1 f: exponential e: 1 acc: 93.3% mut: 30%                                           [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: elu e: 1 acc: 92.18% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 2 f: relu e: 2 acc: 94.45% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: relu e: 1 acc: 92.23% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: elu e: 2 acc: 92.96% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 1                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40mALL  BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 33 l: 1 f: elu e: 2 acc: 92.75% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: exponential e: 2 acc: 94.41% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 41 l: 1 f: elu e: 2 acc: 93.51% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: sigmoid e: 2 acc: 91.93% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 1 f: exponential e: 1 acc: 93.5% mut: 30%                                           [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 2                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40mALL  BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 38 l: 2 f: exponential e: 2 acc: 94.49% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 1 f: exponential e: 2 acc: 95.01% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 1 f: relu e: 1 acc: 92.76% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 1 f: relu e: 2 acc: 93.62% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 41 l: 2 f: exponential e: 2 acc: 94.55% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 3                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 4                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 5                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 43 l: 1 f: selu e: 2 acc: 93.15% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 6                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 43 l: 2 f: relu e: 1 acc: 93.44% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 7                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 8                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 9                                                                                              [m
+[37m[40mCURR BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 43 l: 2 f: relu e: 2 acc: 95.24% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mxMut, yMut [0, 1] [0.9485899865627289, 0.9524000287055969]                                           [m
+[37m[40mRESULT: n: 42 l: 1 f: tanh e: 1 acc: 91.92% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 1 f: selu e: 2 acc: 93.44% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 1 f: selu e: 2 acc: 92.87% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 32 l: 1 f: selu e: 1 acc: 91.57% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 49 l: 1 f: tanh e: 1 acc: 92.5% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 2 f: tanh e: 1 acc: 92.84% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 2 f: elu e: 1 acc: 92.91% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40m---- INITIALIZED ----                                                                                [m
+[37m[40mRESULT: n: 42 l: 1 f: selu e: 1 acc: 91.64% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 32 l: 1 f: tanh e: 1 acc: 91.58% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 42 l: 1 f: tanh e: 2 acc: 93.91% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: selu e: 2 acc: 93.09% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 1 f: selu e: 1 acc: 92.19% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 2 f: tanh e: 2 acc: 94.45% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 1                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: tanh e: 2 acc: 94.45% mut: 30%                                              [m
+[37m[40mALL  BEST: n: 38 l: 2 f: tanh e: 2 acc: 94.45% mut: 30%                                              [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 32 l: 1 f: selu e: 2 acc: 93.12% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 2 f: tanh e: 2 acc: 94.41% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 1 f: relu e: 2 acc: 94.12% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 1 f: sigmoid e: 2 acc: 91.51% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 2                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: exponential e: 2 acc: 94.49% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 38 l: 2 f: exponential e: 2 acc: 94.49% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 36 l: 2 f: exponential e: 2 acc: 93.81% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: tanh e: 2 acc: 93.73% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 1 f: exponential e: 2 acc: 94.53% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 2 f: exponential e: 2 acc: 94.56% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 42 l: 1 f: relu e: 2 acc: 93.87% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 3                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40mALL  BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 4                                                                                              [m
+[37m[40mCURR BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40mALL  BEST: n: 38 l: 2 f: relu e: 2 acc: 94.7% mut: 30%                                               [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 39 l: 2 f: relu e: 2 acc: 94.41% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 38 l: 1 f: relu e: 2 acc: 93.48% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 39 l: 2 f: exponential e: 1 acc: 92.01% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 5                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 46 l: 1 f: exponential e: 2 acc: 94.91% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 6                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 46 l: 2 f: exponential e: 2 acc: 94.73% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 7                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 35 l: 1 f: exponential e: 2 acc: 94.91% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 1 f: exponential e: 2 acc: 94.91% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 46 l: 2 f: selu e: 2 acc: 94.12% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 8                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 48 l: 2 f: sigmoid e: 2 acc: 92.0% mut: 30%                                               [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 9                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mxMut, yMut [0, 1, 2] [0.9485899865627289, 0.9524000287055969, 0.9508000016212463]                    [m
+[37m[40mRESULT: n: 34 l: 1 f: elu e: 1 acc: 91.8% mut: 30%                                                   [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 35 l: 1 f: sigmoid e: 1 acc: 88.96% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: sigmoid e: 2 acc: 91.49% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 2 f: sigmoid e: 1 acc: 87.19% mut: 30%                                              [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: exponential e: 2 acc: 94.88% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 2 f: selu e: 2 acc: 94.12% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 37 l: 2 f: exponential e: 1 acc: 92.07% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40m---- INITIALIZED ----                                                                                [m
+[37m[40mRESULT: n: 34 l: 1 f: exponential e: 2 acc: 94.62% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 43 l: 1 f: elu e: 1 acc: 91.93% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 34 l: 1 f: elu e: 2 acc: 93.16% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 48 l: 2 f: selu e: 1 acc: 92.69% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: selu e: 2 acc: 92.71% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 1 f: relu e: 2 acc: 93.63% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 1                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 43 l: 2 f: exponential e: 2 acc: 94.66% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 31 l: 2 f: selu e: 2 acc: 94.01% mut: 30%                                                 [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 2                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 3                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 45 l: 2 f: exponential e: 2 acc: 94.19% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 4                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 5                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mEpoch 6                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 48 l: 2 f: elu e: 2 acc: 94.85% mut: 30%                                                  [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 7                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 47 l: 2 f: exponential e: 2 acc: 94.37% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 8                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mRESULT: n: 33 l: 2 f: exponential e: 2 acc: 92.96% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mRESULT: n: 35 l: 2 f: exponential e: 2 acc: 93.69% mut: 30%                                          [m
+[37m[40m------                                                                                               [m
+[37m[40mEpoch 9                                                                                              [m
+[37m[40mCURR BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40mALL  BEST: n: 48 l: 2 f: exponential e: 2 acc: 95.08% mut: 30%                                       [m
+[37m[40m--------                                                                                             [m
+[37m[40mxMut, yMut [0, 1, 2, 3] [0.9485899865627289, 0.9524000287055969, 0.9508000016212463, 0.95080000162124[m
+[37m[40m63]                                                                                                  [m
+[37m[40m                                                                                                     [m
+[37m[40mD:\projects\neuro-ga>                                                                                [m
