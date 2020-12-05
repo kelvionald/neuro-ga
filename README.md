@@ -18,14 +18,12 @@
 - matplotlib
 
 #### Установка
-pip install keras
-pip install matplotlib
-pip install numpy
-pip install tensorflow
+pip install keras \
+pip install matplotlib \
+pip install numpy \
+pip install tensorflow 
 
 #### Запуск
-python population.py - для генерации графика средней точности НС от объема популяции
-
-python mutation.py - для генерации графика средней точности НС от процента мутации гена
-
-python disable_param.py - для генерации графика средней точности НС при отключении одного гиперпараметра 
+- python population.py - для генерации графика средней точности НС от объема популяции
+- python mutation.py - для генерации графика средней точности НС от процента мутации гена
+- python disable_param.py - для генерации графика средней точности НС при отключении одного гиперпараметра
