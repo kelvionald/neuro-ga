@@ -5,7 +5,7 @@ from tensorflow.keras import layers
 import random
 import math
 
-debug = True
+debug = False
 
 history_col_mutants = []
 history_obj_func = []
@@ -51,6 +51,7 @@ y_test = keras.utils.to_categorical(y_test)  # , num_classes)
 ignore_mutation_gens = set()
 
 def getGen(pos):
+    '''Возвращает случайный ген по индексу pos'''
     if pos in ignore_mutation_gens:
         if pos == 0:
             return 50
@@ -71,6 +72,7 @@ def getGen(pos):
 
 
 def getChromosome():
+    '''Возвращат случайный организм'''
     return [
         getGen(0),
         getGen(1),
@@ -80,6 +82,7 @@ def getChromosome():
 
 
 def genModel(finded_string):
+    '''Создает модель на основе генов организма'''
     neurons_num, layers_num, activation_type, epochs = finded_string
     model = []
     # print([neurons_num, layers_num, activation_type])
@@ -120,6 +123,7 @@ def cacher(func):
 
 @cacher
 def objective_function(finded_string):
+    '''Обучает создаваемую модель и возвращает точность обучения модели'''
     neurons_num, layers_num, activation_type, epochs = finded_string
     model = genModel(finded_string)
     # sparse_categorical_crossentropy
@@ -133,6 +137,7 @@ def objective_function(finded_string):
 
 
 def init_population(count_chromosomes=len_population):
+    '''Создание первичной популяции организмов'''
     sum_scores = 0
     new_chromosomes = []
     while (True):
@@ -148,6 +153,7 @@ def init_population(count_chromosomes=len_population):
 
 
 def calculate_score(chromosomes):
+    '''Подсчет счета качества обучения'''
     sum_score = 0
     for chromosome in chromosomes:
         sum_score += objective_function(chromosome)
@@ -155,6 +161,7 @@ def calculate_score(chromosomes):
 
 
 def operator_roulette(chromosomes=[]):
+    '''Оператор рулетки для Выбора пары для скрещивания'''
     rotation_roulette = []
     selected_chromosomes = []
     score_chromosomes = []
@@ -181,6 +188,7 @@ def operator_roulette(chromosomes=[]):
 
 
 def operator_crossingover(population):
+    '''Обмен участками хромосом'''
     len_population = len(population)
     slice_population = int(len_population / 2)
     new_population = []
@@ -197,6 +205,7 @@ def operator_crossingover(population):
 
 
 def operator_mutation(chromosomes):
+    '''Изменение случайного гена'''
     new_chromosomes = []
     count_mutants = 0
     for chromosome in chromosomes:
@@ -214,6 +223,7 @@ def operator_mutation(chromosomes):
 
 
 def operator_selection(chromosomes):
+    '''Оператор отбора осыбей'''
     result = []
     new_chromosomes = []
     score = 0

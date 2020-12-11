@@ -1,0 +1,24 @@
+x_train shape: (60000, 784)
+60000 train samples
+10000 test samples
+RESULT: n: 67 l: 4 f: sigmoid e: 3 acc: 93.32% mut: 30%
+------
+RESULT: n: 55 l: 2 f: tanh e: 4 acc: 96.42% mut: 30%
+------
+RESULT: n: 95 l: 4 f: selu e: 3 acc: 96.24% mut: 30%
+------
+RESULT: n: 60 l: 3 f: relu e: 2 acc: 95.75% mut: 30%
+------
+RESULT: n: 33 l: 3 f: selu e: 3 acc: 94.49% mut: 30%
+------
+RESULT: n: 34 l: 4 f: selu e: 3 acc: 95.02% mut: 30%
+------
+RESULT: n: 78 l: 4 f: elu e: 3 acc: 96.84% mut: 30%
+------
+RESULT: n: 52 l: 3 f: relu e: 2 acc: 95.35% mut: 30%
+------
+RESULT: n: 40 l: 3 f: exponential e: 2 acc: 92.69% mut: 30%
+------
+RESULT: n: 35 l: 4 f: sigmoid e: 2 acc: 85.67% mut: 30%
+------
+---- INITIALIZED ----
