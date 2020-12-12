@@ -22,3 +22,704 @@ RESULT: n: 40 l: 3 f: exponential e: 2 acc: 92.69% mut: 30%
 RESULT: n: 35 l: 4 f: sigmoid e: 2 acc: 85.67% mut: 30%
 ------
 ---- INITIALIZED ----
+x_train shape: (60000, 784)
+60000 train samples
+10000 test samples
+RESULT: n: 97 l: 2 f: exponential e: 4 acc: 96.1% mut: 30%
+------
+RESULT: n: 96 l: 3 f: tanh e: 1 acc: 94.59% mut: 30%
+------
+RESULT: n: 57 l: 2 f: relu e: 2 acc: 95.38% mut: 30%
+------
+RESULT: n: 54 l: 1 f: elu e: 1 acc: 92.5% mut: 30%
+------
+RESULT: n: 90 l: 1 f: tanh e: 1 acc: 92.79% mut: 30%
+------
+RESULT: n: 86 l: 1 f: elu e: 4 acc: 95.78% mut: 30%
+------
+RESULT: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+------
+RESULT: n: 39 l: 3 f: elu e: 3 acc: 95.69% mut: 30%
+------
+RESULT: n: 95 l: 4 f: elu e: 4 acc: 96.99% mut: 30%
+------
+RESULT: n: 65 l: 3 f: relu e: 1 acc: 94.58% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 96 l: 3 f: tanh e: 4 acc: 97.04% mut: 30%
+------
+RESULT: n: 86 l: 1 f: elu e: 1 acc: 92.68% mut: 30%
+------
+RESULT: n: 74 l: 1 f: elu e: 4 acc: 95.42% mut: 30%
+------
+RESULT: n: 86 l: 3 f: tanh e: 1 acc: 94.33% mut: 30%
+------
+RESULT: n: 54 l: 1 f: elu e: 4 acc: 95.2% mut: 30%
+------
+RESULT: n: 98 l: 2 f: elu e: 1 acc: 93.51% mut: 30%
+------
+RESULT: n: 86 l: 1 f: elu e: 3 acc: 95.45% mut: 30%
+------
+RESULT: n: 88 l: 3 f: tanh e: 1 acc: 94.23% mut: 30%
+------
+RESULT: n: 90 l: 1 f: elu e: 4 acc: 96.21% mut: 30%
+------
+RESULT: n: 95 l: 4 f: tanh e: 1 acc: 94.67% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+CURR BEST: n: 96 l: 3 f: tanh e: 4 acc: 97.04% mut: 30%
+CURR BEST: n: 95 l: 4 f: elu e: 4 acc: 96.99% mut: 30%
+ALL  BEST: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+RESULT: n: 32 l: 3 f: elu e: 3 acc: 95.14% mut: 30%
+------
+RESULT: n: 39 l: 3 f: tanh e: 2 acc: 95.05% mut: 30%
+------
+RESULT: n: 96 l: 2 f: tanh e: 3 acc: 96.31% mut: 30%
+------
+RESULT: n: 39 l: 3 f: relu e: 4 acc: 96.13% mut: 30%
+------
+RESULT: n: 90 l: 3 f: elu e: 2 acc: 95.99% mut: 30%
+------
+RESULT: n: 39 l: 1 f: elu e: 4 acc: 94.88% mut: 30%
+------
+RESULT: n: 90 l: 1 f: elu e: 3 acc: 95.3% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+CURR BEST: n: 96 l: 3 f: tanh e: 4 acc: 97.04% mut: 30%
+CURR BEST: n: 95 l: 4 f: elu e: 4 acc: 96.99% mut: 30%
+ALL  BEST: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+RESULT: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+------
+RESULT: n: 39 l: 2 f: elu e: 4 acc: 95.67% mut: 30%
+------
+RESULT: n: 95 l: 2 f: exponential e: 4 acc: 96.59% mut: 30%
+------
+RESULT: n: 97 l: 4 f: elu e: 4 acc: 96.99% mut: 30%
+------
+RESULT: n: 95 l: 1 f: elu e: 2 acc: 94.05% mut: 30%
+------
+RESULT: n: 90 l: 3 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 2 f: elu e: 4 acc: 97.1% mut: 30%
+CURR BEST: n: 96 l: 3 f: tanh e: 4 acc: 97.04% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 3 f: elu e: 4 acc: 96.89% mut: 30%
+------
+RESULT: n: 95 l: 4 f: relu e: 4 acc: 97.26% mut: 30%
+------
+RESULT: n: 95 l: 4 f: elu e: 2 acc: 96.29% mut: 30%
+------
+RESULT: n: 98 l: 2 f: exponential e: 4 acc: 96.03% mut: 30%
+------
+RESULT: n: 49 l: 2 f: elu e: 4 acc: 96.24% mut: 30%
+------
+RESULT: n: 97 l: 4 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 95 l: 2 f: elu e: 4 acc: 96.95% mut: 30%
+------
+RESULT: n: 97 l: 3 f: elu e: 3 acc: 96.49% mut: 30%
+------
+RESULT: n: 96 l: 2 f: relu e: 4 acc: 97.2% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 95 l: 4 f: relu e: 4 acc: 97.26% mut: 30%
+CURR BEST: n: 96 l: 2 f: relu e: 4 acc: 97.2% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 67 l: 2 f: elu e: 4 acc: 96.46% mut: 30%
+------
+RESULT: n: 95 l: 4 f: sigmoid e: 4 acc: 95.2% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 95 l: 4 f: relu e: 4 acc: 97.26% mut: 30%
+CURR BEST: n: 95 l: 4 f: relu e: 4 acc: 97.26% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 4 f: relu e: 4 acc: 96.18% mut: 30%
+------
+RESULT: n: 95 l: 2 f: tanh e: 4 acc: 96.92% mut: 30%
+------
+RESULT: n: 96 l: 3 f: relu e: 4 acc: 97.24% mut: 30%
+------
+RESULT: n: 95 l: 4 f: tanh e: 4 acc: 96.75% mut: 30%
+------
+RESULT: n: 98 l: 3 f: tanh e: 4 acc: 96.89% mut: 30%
+------
+RESULT: n: 96 l: 2 f: elu e: 4 acc: 96.6% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 95 l: 4 f: relu e: 4 acc: 97.26% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 95 l: 3 f: relu e: 4 acc: 97.13% mut: 30%
+------
+RESULT: n: 98 l: 3 f: sigmoid e: 4 acc: 95.52% mut: 30%
+------
+RESULT: n: 98 l: 2 f: relu e: 4 acc: 97.03% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 52 l: 4 f: relu e: 4 acc: 96.24% mut: 30%
+------
+RESULT: n: 48 l: 4 f: relu e: 4 acc: 95.95% mut: 30%
+------
+RESULT: n: 95 l: 4 f: relu e: 1 acc: 94.94% mut: 30%
+------
+Epoch 8
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 90 l: 4 f: relu e: 4 acc: 96.82% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 3 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 98 l: 3 f: relu e: 3 acc: 97.07% mut: 30%
+------
+RESULT: n: 95 l: 2 f: relu e: 4 acc: 96.96% mut: 30%
+------
+Epoch 10
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 71 l: 3 f: relu e: 4 acc: 96.75% mut: 30%
+------
+Epoch 11
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 12
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 13
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 3 f: relu e: 2 acc: 96.56% mut: 30%
+------
+RESULT: n: 31 l: 3 f: relu e: 4 acc: 95.21% mut: 30%
+------
+Epoch 14
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 72 l: 3 f: relu e: 4 acc: 97.03% mut: 30%
+------
+Epoch 15
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 1 f: relu e: 4 acc: 96.53% mut: 30%
+------
+Epoch 16
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 46 l: 3 f: relu e: 4 acc: 96.27% mut: 30%
+------
+Epoch 17
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 98 l: 3 f: selu e: 4 acc: 97.02% mut: 30%
+------
+RESULT: n: 80 l: 3 f: relu e: 4 acc: 96.82% mut: 30%
+------
+Epoch 18
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 19
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 90 l: 3 f: relu e: 4 acc: 96.88% mut: 30%
+------
+Epoch 20
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 21
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 93 l: 3 f: relu e: 4 acc: 96.99% mut: 30%
+------
+Epoch 22
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 86 l: 3 f: relu e: 4 acc: 97.22% mut: 30%
+------
+Epoch 23
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 83 l: 3 f: relu e: 4 acc: 97.11% mut: 30%
+------
+RESULT: n: 70 l: 3 f: relu e: 4 acc: 96.71% mut: 30%
+------
+Epoch 24
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 25
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 26
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 32 l: 3 f: relu e: 4 acc: 95.48% mut: 30%
+------
+Epoch 27
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 34 l: 3 f: relu e: 4 acc: 95.3% mut: 30%
+------
+RESULT: n: 98 l: 3 f: relu e: 1 acc: 95.13% mut: 30%
+------
+Epoch 28
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 29
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 59 l: 3 f: relu e: 4 acc: 96.81% mut: 30%
+------
+Epoch 30
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 31
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 82 l: 3 f: relu e: 4 acc: 96.72% mut: 30%
+------
+Epoch 32
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 33
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 34
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 35
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 36
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 41 l: 3 f: relu e: 4 acc: 95.85% mut: 30%
+------
+Epoch 37
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 38
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 39
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 57 l: 3 f: relu e: 4 acc: 96.48% mut: 30%
+------
+RESULT: n: 37 l: 3 f: relu e: 4 acc: 96.13% mut: 30%
+------
+Epoch 40
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 66 l: 3 f: relu e: 4 acc: 96.54% mut: 30%
+------
+Epoch 41
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 42
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 43
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 44
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 45
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 46
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 60 l: 3 f: relu e: 4 acc: 96.54% mut: 30%
+------
+RESULT: n: 61 l: 3 f: relu e: 4 acc: 97.08% mut: 30%
+------
+RESULT: n: 91 l: 3 f: relu e: 4 acc: 97.17% mut: 30%
+------
+Epoch 47
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 48
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 79 l: 3 f: relu e: 4 acc: 97.17% mut: 30%
+------
+Epoch 49
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 85 l: 3 f: relu e: 4 acc: 96.99% mut: 30%
+------
+Epoch 50
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 51
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 52
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 94 l: 3 f: relu e: 4 acc: 97.18% mut: 30%
+------
+RESULT: n: 84 l: 3 f: relu e: 4 acc: 96.63% mut: 30%
+------
+Epoch 53
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 54
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 55
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 38 l: 3 f: relu e: 4 acc: 95.91% mut: 30%
+------
+Epoch 56
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 57
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 73 l: 3 f: relu e: 4 acc: 96.34% mut: 30%
+------
+Epoch 58
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 59
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 60
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 61
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 62 l: 3 f: relu e: 4 acc: 96.67% mut: 30%
+------
+Epoch 62
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 63
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 64
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 65
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 66
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 53 l: 3 f: relu e: 4 acc: 96.74% mut: 30%
+------
+Epoch 67
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 68
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 69
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 70
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 71
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 72
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 73
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 74
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 75 l: 3 f: relu e: 4 acc: 97.15% mut: 30%
+------
+Epoch 75
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 76
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 77
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 33 l: 3 f: relu e: 4 acc: 95.44% mut: 30%
+------
+Epoch 78
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 36 l: 3 f: relu e: 4 acc: 95.81% mut: 30%
+------
+Epoch 79
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 88 l: 3 f: relu e: 4 acc: 96.82% mut: 30%
+------
+Epoch 80
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 99 l: 3 f: relu e: 4 acc: 97.07% mut: 30%
+------
+Epoch 81
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 82
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 83
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 84
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 85
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 86
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 87
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 88
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 89
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 90
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 91
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 92
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 93
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 94
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 95
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+Epoch 96
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 67 l: 3 f: relu e: 4 acc: 96.75% mut: 30%
+------
+Epoch 97
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 64 l: 3 f: relu e: 4 acc: 96.71% mut: 30%
+------
+Epoch 98
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+RESULT: n: 89 l: 3 f: relu e: 4 acc: 96.77% mut: 30%
+------
+Epoch 99
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.38% mut: 30%

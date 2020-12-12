@@ -54,13 +54,13 @@ def getGen(pos):
     '''Возвращает случайный ген по индексу pos'''
     if pos in ignore_mutation_gens:
         if pos == 0:
-            return 50
+            return 98
         elif pos == 1:
             return 3
         elif pos == 2:
             return 'relu'
         elif pos == 3:
-            return 3
+            return 4
     if pos == 0:
         return random.choice(values_neurons_num)
     elif pos == 1:

@@ -17,6 +17,8 @@ for ignore_gen in range(0, 4):
 
     best = [[], 0]
     for epoch in range(1, iter_epochs):
+        with open('epoch.txt', 'w') as f:
+            f.write(str(epoch) + ' ' + str(ignore_gen))
         new = t
         t = operator_roulette(t)
         t = operator_crossingover(t)

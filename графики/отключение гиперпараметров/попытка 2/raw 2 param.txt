@@ -1,0 +1,783 @@
+x_train shape: (60000, 784)
+60000 train samples
+10000 test samples
+RESULT: n: 75 l: 1 f: selu e: 1 acc: 92.11% mut: 30%
+------
+RESULT: n: 64 l: 2 f: selu e: 3 acc: 95.39% mut: 30%
+------
+RESULT: n: 64 l: 2 f: relu e: 4 acc: 96.6% mut: 30%
+------
+RESULT: n: 40 l: 2 f: selu e: 3 acc: 94.96% mut: 30%
+------
+RESULT: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+------
+RESULT: n: 96 l: 4 f: relu e: 4 acc: 97.1% mut: 30%
+------
+RESULT: n: 65 l: 2 f: elu e: 1 acc: 93.44% mut: 30%
+------
+RESULT: n: 96 l: 1 f: relu e: 4 acc: 96.81% mut: 30%
+------
+RESULT: n: 96 l: 1 f: tanh e: 1 acc: 92.9% mut: 30%
+------
+RESULT: n: 59 l: 2 f: selu e: 2 acc: 94.73% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 75 l: 1 f: selu e: 4 acc: 95.38% mut: 30%
+------
+RESULT: n: 94 l: 3 f: tanh e: 1 acc: 94.13% mut: 30%
+------
+RESULT: n: 65 l: 2 f: elu e: 3 acc: 96.34% mut: 30%
+------
+RESULT: n: 64 l: 2 f: elu e: 1 acc: 92.97% mut: 30%
+------
+RESULT: n: 65 l: 2 f: relu e: 4 acc: 96.67% mut: 30%
+------
+RESULT: n: 40 l: 2 f: selu e: 4 acc: 95.52% mut: 30%
+------
+RESULT: n: 96 l: 1 f: relu e: 3 acc: 96.1% mut: 30%
+------
+RESULT: n: 40 l: 2 f: tanh e: 1 acc: 92.58% mut: 30%
+------
+RESULT: n: 96 l: 1 f: selu e: 3 acc: 94.8% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 94 l: 3 f: elu e: 3 acc: 96.21% mut: 30%
+------
+RESULT: n: 65 l: 3 f: tanh e: 4 acc: 96.77% mut: 30%
+------
+RESULT: n: 96 l: 1 f: relu e: 1 acc: 94.04% mut: 30%
+------
+RESULT: n: 65 l: 2 f: relu e: 3 acc: 95.98% mut: 30%
+------
+RESULT: n: 30 l: 2 f: selu e: 4 acc: 94.95% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 94 l: 2 f: relu e: 4 acc: 97.1% mut: 30%
+------
+RESULT: n: 64 l: 1 f: relu e: 4 acc: 96.06% mut: 30%
+------
+RESULT: n: 96 l: 2 f: relu e: 4 acc: 96.96% mut: 30%
+------
+RESULT: n: 65 l: 3 f: relu e: 4 acc: 96.6% mut: 30%
+------
+RESULT: n: 64 l: 3 f: tanh e: 4 acc: 96.64% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 96 l: 3 f: tanh e: 4 acc: 97.03% mut: 30%
+------
+RESULT: n: 94 l: 1 f: relu e: 4 acc: 96.64% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 94 l: 4 f: relu e: 4 acc: 97.1% mut: 30%
+------
+RESULT: n: 56 l: 3 f: tanh e: 4 acc: 96.45% mut: 30%
+------
+RESULT: n: 94 l: 3 f: relu e: 4 acc: 97.03% mut: 30%
+------
+RESULT: n: 96 l: 4 f: tanh e: 4 acc: 96.92% mut: 30%
+------
+RESULT: n: 42 l: 2 f: relu e: 4 acc: 96.1% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 94 l: 2 f: relu e: 2 acc: 96.1% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 88 l: 3 f: relu e: 4 acc: 96.95% mut: 30%
+------
+RESULT: n: 60 l: 3 f: tanh e: 4 acc: 96.6% mut: 30%
+------
+RESULT: n: 96 l: 4 f: elu e: 4 acc: 96.7% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 81 l: 3 f: tanh e: 4 acc: 96.78% mut: 30%
+------
+Epoch 8
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 94 l: 3 f: tanh e: 3 acc: 96.66% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 94 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+xMut, yMut ['0_1'] [0.9718199729919433]
+RESULT: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+------
+RESULT: n: 62 l: 2 f: selu e: 2 acc: 94.62% mut: 30%
+------
+RESULT: n: 59 l: 2 f: sigmoid e: 2 acc: 92.22% mut: 30%
+------
+RESULT: n: 30 l: 2 f: relu e: 3 acc: 94.76% mut: 30%
+------
+RESULT: n: 88 l: 1 f: elu e: 4 acc: 95.88% mut: 30%
+------
+RESULT: n: 90 l: 3 f: elu e: 4 acc: 96.74% mut: 30%
+------
+RESULT: n: 69 l: 4 f: tanh e: 2 acc: 95.67% mut: 30%
+------
+RESULT: n: 74 l: 4 f: relu e: 2 acc: 96.02% mut: 30%
+------
+RESULT: n: 72 l: 1 f: sigmoid e: 1 acc: 90.68% mut: 30%
+------
+RESULT: n: 51 l: 4 f: tanh e: 3 acc: 96.1% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 99 l: 3 f: tanh e: 3 acc: 96.71% mut: 30%
+------
+RESULT: n: 30 l: 2 f: relu e: 4 acc: 95.31% mut: 30%
+------
+RESULT: n: 62 l: 2 f: selu e: 4 acc: 95.98% mut: 30%
+------
+RESULT: n: 88 l: 1 f: elu e: 2 acc: 94.52% mut: 30%
+------
+RESULT: n: 62 l: 3 f: elu e: 4 acc: 96.52% mut: 30%
+------
+RESULT: n: 90 l: 4 f: selu e: 2 acc: 95.92% mut: 30%
+------
+RESULT: n: 90 l: 3 f: selu e: 2 acc: 95.49% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+ALL  BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+--------
+RESULT: n: 90 l: 4 f: relu e: 2 acc: 96.18% mut: 30%
+------
+RESULT: n: 74 l: 3 f: elu e: 4 acc: 96.78% mut: 30%
+------
+RESULT: n: 62 l: 4 f: relu e: 2 acc: 96.36% mut: 30%
+------
+RESULT: n: 51 l: 4 f: relu e: 2 acc: 95.39% mut: 30%
+------
+RESULT: n: 74 l: 1 f: tanh e: 3 acc: 95.49% mut: 30%
+------
+RESULT: n: 51 l: 4 f: tanh e: 4 acc: 96.21% mut: 30%
+------
+RESULT: n: 62 l: 2 f: selu e: 3 acc: 95.39% mut: 30%
+------
+RESULT: n: 74 l: 4 f: relu e: 4 acc: 96.78% mut: 30%
+------
+RESULT: n: 62 l: 2 f: relu e: 2 acc: 95.42% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+ALL  BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+--------
+RESULT: n: 74 l: 3 f: tanh e: 3 acc: 96.36% mut: 30%
+------
+RESULT: n: 99 l: 4 f: relu e: 4 acc: 96.77% mut: 30%
+------
+RESULT: n: 99 l: 3 f: elu e: 4 acc: 96.54% mut: 30%
+------
+RESULT: n: 74 l: 3 f: sigmoid e: 4 acc: 95.02% mut: 30%
+------
+RESULT: n: 62 l: 3 f: elu e: 1 acc: 94.12% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+ALL  BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+--------
+RESULT: n: 74 l: 2 f: tanh e: 4 acc: 96.46% mut: 30%
+------
+RESULT: n: 33 l: 3 f: tanh e: 4 acc: 95.98% mut: 30%
+------
+RESULT: n: 74 l: 4 f: elu e: 4 acc: 96.86% mut: 30%
+------
+RESULT: n: 90 l: 3 f: relu e: 4 acc: 96.81% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+ALL  BEST: n: 99 l: 3 f: tanh e: 4 acc: 97.21% mut: 30%
+--------
+RESULT: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+------
+RESULT: n: 40 l: 3 f: elu e: 4 acc: 95.95% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+ALL  BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+--------
+RESULT: n: 99 l: 4 f: elu e: 4 acc: 96.85% mut: 30%
+------
+RESULT: n: 74 l: 3 f: tanh e: 4 acc: 96.96% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+ALL  BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+--------
+RESULT: n: 58 l: 4 f: relu e: 4 acc: 96.74% mut: 30%
+------
+RESULT: n: 74 l: 4 f: tanh e: 4 acc: 96.53% mut: 30%
+------
+RESULT: n: 74 l: 3 f: selu e: 4 acc: 96.49% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+ALL  BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+--------
+RESULT: n: 87 l: 4 f: elu e: 4 acc: 97.04% mut: 30%
+------
+RESULT: n: 74 l: 4 f: relu e: 3 acc: 96.39% mut: 30%
+------
+RESULT: n: 74 l: 4 f: tanh e: 1 acc: 94.11% mut: 30%
+------
+RESULT: n: 74 l: 2 f: elu e: 4 acc: 96.6% mut: 30%
+------
+Epoch 8
+CURR BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+ALL  BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+--------
+RESULT: n: 74 l: 3 f: relu e: 4 acc: 96.6% mut: 30%
+------
+RESULT: n: 34 l: 3 f: tanh e: 4 acc: 96.07% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+ALL  BEST: n: 99 l: 3 f: relu e: 4 acc: 97.43% mut: 30%
+--------
+xMut, yMut ['0_1', '0_2'] [0.9718199729919433, 0.9722800135612488]
+RESULT: n: 43 l: 2 f: exponential e: 2 acc: 94.3% mut: 30%
+------
+RESULT: n: 46 l: 1 f: selu e: 2 acc: 93.44% mut: 30%
+------
+RESULT: n: 59 l: 4 f: relu e: 1 acc: 93.63% mut: 30%
+------
+RESULT: n: 30 l: 1 f: relu e: 4 acc: 94.8% mut: 30%
+------
+RESULT: n: 92 l: 1 f: tanh e: 1 acc: 92.9% mut: 30%
+------
+RESULT: n: 81 l: 4 f: selu e: 1 acc: 93.87% mut: 30%
+------
+RESULT: n: 50 l: 3 f: tanh e: 2 acc: 95.21% mut: 30%
+------
+RESULT: n: 98 l: 4 f: sigmoid e: 1 acc: 88.94% mut: 30%
+------
+RESULT: n: 96 l: 4 f: elu e: 2 acc: 95.93% mut: 30%
+------
+RESULT: n: 49 l: 2 f: elu e: 1 acc: 92.82% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 59 l: 4 f: relu e: 3 acc: 96.16% mut: 30%
+------
+RESULT: n: 48 l: 3 f: tanh e: 1 acc: 93.51% mut: 30%
+------
+RESULT: n: 59 l: 3 f: tanh e: 2 acc: 95.6% mut: 30%
+------
+RESULT: n: 83 l: 4 f: relu e: 1 acc: 93.65% mut: 30%
+------
+RESULT: n: 59 l: 4 f: sigmoid e: 3 acc: 93.44% mut: 30%
+------
+RESULT: n: 98 l: 4 f: relu e: 1 acc: 94.84% mut: 30%
+------
+RESULT: n: 30 l: 1 f: sigmoid e: 1 acc: 89.09% mut: 30%
+------
+RESULT: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+------
+RESULT: n: 30 l: 1 f: relu e: 2 acc: 93.26% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 96 l: 4 f: selu e: 2 acc: 96.28% mut: 30%
+------
+RESULT: n: 59 l: 3 f: elu e: 4 acc: 96.64% mut: 30%
+------
+RESULT: n: 96 l: 2 f: tanh e: 2 acc: 95.77% mut: 30%
+------
+RESULT: n: 59 l: 4 f: relu e: 2 acc: 95.3% mut: 30%
+------
+RESULT: n: 50 l: 3 f: tanh e: 3 acc: 95.95% mut: 30%
+------
+RESULT: n: 96 l: 4 f: relu e: 2 acc: 96.43% mut: 30%
+------
+RESULT: n: 30 l: 2 f: elu e: 2 acc: 93.02% mut: 30%
+------
+RESULT: n: 59 l: 2 f: exponential e: 2 acc: 94.95% mut: 30%
+------
+RESULT: n: 43 l: 3 f: tanh e: 2 acc: 95.31% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 96 l: 4 f: elu e: 3 acc: 96.31% mut: 30%
+------
+RESULT: n: 96 l: 4 f: selu e: 3 acc: 95.52% mut: 30%
+------
+RESULT: n: 92 l: 4 f: relu e: 2 acc: 96.46% mut: 30%
+------
+RESULT: n: 96 l: 4 f: selu e: 1 acc: 94.05% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 96 l: 3 f: elu e: 2 acc: 96.34% mut: 30%
+------
+RESULT: n: 61 l: 4 f: relu e: 4 acc: 96.57% mut: 30%
+------
+RESULT: n: 59 l: 3 f: elu e: 3 acc: 96.27% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 98 l: 4 f: elu e: 4 acc: 96.96% mut: 30%
+------
+RESULT: n: 96 l: 3 f: elu e: 4 acc: 96.89% mut: 30%
+------
+RESULT: n: 59 l: 4 f: elu e: 4 acc: 96.56% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 96 l: 4 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 48 l: 4 f: elu e: 4 acc: 96.03% mut: 30%
+------
+RESULT: n: 96 l: 3 f: relu e: 4 acc: 97.14% mut: 30%
+------
+RESULT: n: 51 l: 4 f: elu e: 4 acc: 96.42% mut: 30%
+------
+RESULT: n: 96 l: 4 f: elu e: 1 acc: 94.37% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+Epoch 7
+CURR BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+ALL  BEST: n: 98 l: 4 f: relu e: 4 acc: 97.29% mut: 30%
+--------
+RESULT: n: 98 l: 2 f: relu e: 4 acc: 97.18% mut: 30%
+------
+RESULT: n: 98 l: 3 f: relu e: 4 acc: 97.33% mut: 30%
+------
+Epoch 8
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.33% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.33% mut: 30%
+--------
+Epoch 9
+CURR BEST: n: 98 l: 3 f: relu e: 4 acc: 97.33% mut: 30%
+ALL  BEST: n: 98 l: 3 f: relu e: 4 acc: 97.33% mut: 30%
+--------
+xMut, yMut ['0_1', '0_2', '0_3'] [0.9718199729919433, 0.9722800135612488, 0.973119992017746]
+RESULT: n: 94 l: 3 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+------
+RESULT: n: 97 l: 4 f: exponential e: 2 acc: 9.79% mut: 30%
+------
+RESULT: n: 80 l: 1 f: exponential e: 3 acc: 96.34% mut: 30%
+------
+RESULT: n: 38 l: 2 f: sigmoid e: 4 acc: 93.55% mut: 30%
+------
+RESULT: n: 71 l: 3 f: tanh e: 1 acc: 94.15% mut: 30%
+------
+RESULT: n: 36 l: 1 f: exponential e: 4 acc: 95.95% mut: 30%
+------
+RESULT: n: 72 l: 4 f: exponential e: 3 acc: 9.79% mut: 30%
+------
+RESULT: n: 83 l: 3 f: selu e: 3 acc: 96.24% mut: 30%
+------
+RESULT: n: 41 l: 2 f: exponential e: 3 acc: 94.91% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 80 l: 1 f: exponential e: 2 acc: 95.59% mut: 30%
+------
+RESULT: n: 36 l: 1 f: exponential e: 3 acc: 95.53% mut: 30%
+------
+RESULT: n: 71 l: 3 f: tanh e: 3 acc: 96.5% mut: 30%
+------
+RESULT: n: 83 l: 3 f: selu e: 1 acc: 93.32% mut: 30%
+------
+RESULT: n: 36 l: 1 f: selu e: 3 acc: 93.76% mut: 30%
+------
+RESULT: n: 62 l: 3 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 36 l: 1 f: tanh e: 3 acc: 94.23% mut: 30%
+------
+RESULT: n: 83 l: 3 f: sigmoid e: 4 acc: 95.41% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 86 l: 1 f: exponential e: 2 acc: 95.35% mut: 30%
+------
+RESULT: n: 36 l: 4 f: selu e: 4 acc: 95.81% mut: 30%
+------
+RESULT: n: 86 l: 4 f: selu e: 2 acc: 96.17% mut: 30%
+------
+RESULT: n: 80 l: 1 f: exponential e: 4 acc: 96.39% mut: 30%
+------
+RESULT: n: 86 l: 4 f: exponential e: 2 acc: 9.79% mut: 30%
+------
+RESULT: n: 80 l: 1 f: selu e: 4 acc: 95.45% mut: 30%
+------
+RESULT: n: 71 l: 1 f: exponential e: 3 acc: 96.2% mut: 30%
+------
+RESULT: n: 36 l: 3 f: tanh e: 3 acc: 95.71% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 86 l: 4 f: exponential e: 4 acc: 9.79% mut: 30%
+------
+RESULT: n: 40 l: 1 f: selu e: 4 acc: 94.53% mut: 30%
+------
+RESULT: n: 86 l: 4 f: selu e: 3 acc: 95.99% mut: 30%
+------
+RESULT: n: 71 l: 3 f: selu e: 3 acc: 96.17% mut: 30%
+------
+RESULT: n: 83 l: 3 f: tanh e: 1 acc: 94.01% mut: 30%
+------
+RESULT: n: 71 l: 1 f: exponential e: 4 acc: 96.5% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 71 l: 3 f: tanh e: 4 acc: 96.9% mut: 30%
+------
+RESULT: n: 80 l: 1 f: tanh e: 4 acc: 95.92% mut: 30%
+------
+RESULT: n: 86 l: 1 f: exponential e: 4 acc: 96.66% mut: 30%
+------
+RESULT: n: 80 l: 4 f: selu e: 4 acc: 96.21% mut: 30%
+------
+RESULT: n: 80 l: 4 f: selu e: 3 acc: 96.2% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 53 l: 4 f: selu e: 4 acc: 96.43% mut: 30%
+------
+RESULT: n: 86 l: 2 f: exponential e: 4 acc: 96.25% mut: 30%
+------
+RESULT: n: 86 l: 1 f: selu e: 4 acc: 94.8% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 52 l: 4 f: selu e: 4 acc: 96.21% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 86 l: 3 f: selu e: 4 acc: 96.53% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+Epoch 8
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+RESULT: n: 86 l: 4 f: elu e: 4 acc: 96.84% mut: 30%
+------
+RESULT: n: 35 l: 4 f: selu e: 4 acc: 95.88% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+ALL  BEST: n: 86 l: 4 f: selu e: 4 acc: 96.96% mut: 30%
+--------
+xMut, yMut ['0_1', '0_2', '0_3', '1_2'] [0.9718199729919433, 0.9722800135612488, 0.973119992017746, 0.9696999788284302]
+RESULT: n: 98 l: 4 f: sigmoid e: 3 acc: 94.76% mut: 30%
+------
+RESULT: n: 61 l: 3 f: exponential e: 3 acc: 9.79% mut: 30%
+------
+RESULT: n: 77 l: 4 f: tanh e: 2 acc: 95.88% mut: 30%
+------
+RESULT: n: 85 l: 1 f: elu e: 2 acc: 94.12% mut: 30%
+------
+RESULT: n: 83 l: 2 f: tanh e: 1 acc: 94.19% mut: 30%
+------
+RESULT: n: 57 l: 1 f: sigmoid e: 1 acc: 90.39% mut: 30%
+------
+RESULT: n: 86 l: 2 f: elu e: 4 acc: 96.86% mut: 30%
+------
+RESULT: n: 89 l: 4 f: sigmoid e: 3 acc: 94.3% mut: 30%
+------
+RESULT: n: 55 l: 3 f: tanh e: 4 acc: 96.56% mut: 30%
+------
+RESULT: n: 55 l: 1 f: relu e: 3 acc: 95.27% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 98 l: 2 f: elu e: 4 acc: 96.92% mut: 30%
+------
+RESULT: n: 86 l: 4 f: sigmoid e: 3 acc: 94.4% mut: 30%
+------
+RESULT: n: 69 l: 4 f: sigmoid e: 3 acc: 92.89% mut: 30%
+------
+RESULT: n: 89 l: 4 f: tanh e: 2 acc: 95.63% mut: 30%
+------
+RESULT: n: 77 l: 4 f: relu e: 3 acc: 96.84% mut: 30%
+------
+RESULT: n: 55 l: 1 f: tanh e: 2 acc: 94.11% mut: 30%
+------
+RESULT: n: 85 l: 1 f: elu e: 3 acc: 95.27% mut: 30%
+------
+RESULT: n: 55 l: 1 f: relu e: 2 acc: 94.63% mut: 30%
+------
+RESULT: n: 85 l: 1 f: relu e: 3 acc: 96.02% mut: 30%
+------
+RESULT: n: 55 l: 1 f: elu e: 2 acc: 93.65% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 98 l: 2 f: elu e: 4 acc: 96.92% mut: 30%
+ALL  BEST: n: 98 l: 2 f: elu e: 4 acc: 96.92% mut: 30%
+--------
+RESULT: n: 86 l: 2 f: elu e: 3 acc: 96.09% mut: 30%
+------
+RESULT: n: 85 l: 1 f: relu e: 4 acc: 96.68% mut: 30%
+------
+RESULT: n: 77 l: 1 f: relu e: 2 acc: 94.78% mut: 30%
+------
+RESULT: n: 77 l: 4 f: tanh e: 3 acc: 96.64% mut: 30%
+------
+RESULT: n: 77 l: 4 f: relu e: 2 acc: 95.99% mut: 30%
+------
+RESULT: n: 55 l: 1 f: elu e: 3 acc: 94.59% mut: 30%
+------
+RESULT: n: 78 l: 3 f: tanh e: 4 acc: 96.11% mut: 30%
+------
+RESULT: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 79 l: 3 f: tanh e: 3 acc: 96.53% mut: 30%
+------
+RESULT: n: 94 l: 4 f: tanh e: 4 acc: 96.85% mut: 30%
+------
+RESULT: n: 98 l: 2 f: elu e: 3 acc: 96.32% mut: 30%
+------
+RESULT: n: 77 l: 4 f: tanh e: 4 acc: 97.03% mut: 30%
+------
+RESULT: n: 86 l: 1 f: relu e: 4 acc: 96.45% mut: 30%
+------
+RESULT: n: 78 l: 1 f: relu e: 4 acc: 96.5% mut: 30%
+------
+RESULT: n: 78 l: 3 f: tanh e: 3 acc: 96.59% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 52 l: 2 f: elu e: 4 acc: 96.02% mut: 30%
+------
+RESULT: n: 86 l: 3 f: tanh e: 4 acc: 96.78% mut: 30%
+------
+RESULT: n: 67 l: 2 f: elu e: 4 acc: 96.53% mut: 30%
+------
+RESULT: n: 86 l: 2 f: tanh e: 4 acc: 96.93% mut: 30%
+------
+RESULT: n: 98 l: 4 f: relu e: 3 acc: 96.71% mut: 30%
+------
+RESULT: n: 77 l: 2 f: elu e: 4 acc: 96.54% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 86 l: 2 f: tanh e: 3 acc: 96.21% mut: 30%
+------
+RESULT: n: 60 l: 2 f: tanh e: 4 acc: 96.74% mut: 30%
+------
+RESULT: n: 86 l: 1 f: tanh e: 4 acc: 96.23% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 37 l: 3 f: tanh e: 4 acc: 95.92% mut: 30%
+------
+RESULT: n: 85 l: 4 f: tanh e: 3 acc: 96.21% mut: 30%
+------
+RESULT: n: 77 l: 3 f: tanh e: 4 acc: 96.82% mut: 30%
+------
+RESULT: n: 85 l: 3 f: sigmoid e: 4 acc: 95.49% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 85 l: 3 f: selu e: 4 acc: 97.03% mut: 30%
+------
+RESULT: n: 85 l: 3 f: tanh e: 1 acc: 94.55% mut: 30%
+------
+RESULT: n: 85 l: 2 f: tanh e: 4 acc: 96.68% mut: 30%
+------
+RESULT: n: 85 l: 4 f: tanh e: 4 acc: 97.14% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 67 l: 3 f: tanh e: 4 acc: 96.49% mut: 30%
+------
+Epoch 8
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+RESULT: n: 85 l: 3 f: tanh e: 3 acc: 96.38% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+ALL  BEST: n: 85 l: 3 f: tanh e: 4 acc: 97.28% mut: 30%
+--------
+xMut, yMut ['0_1', '0_2', '0_3', '1_2', '1_3'] [0.9718199729919433, 0.9722800135612488, 0.973119992017746, 0.9696999788284302, 0.9728000164031982]
+RESULT: n: 54 l: 2 f: elu e: 4 acc: 96.35% mut: 30%
+------
+RESULT: n: 42 l: 4 f: selu e: 2 acc: 94.84% mut: 30%
+------
+RESULT: n: 52 l: 1 f: exponential e: 3 acc: 96.2% mut: 30%
+------
+RESULT: n: 32 l: 2 f: elu e: 2 acc: 94.24% mut: 30%
+------
+RESULT: n: 74 l: 1 f: relu e: 4 acc: 96.28% mut: 30%
+------
+RESULT: n: 31 l: 1 f: relu e: 2 acc: 93.16% mut: 30%
+------
+RESULT: n: 55 l: 2 f: elu e: 4 acc: 96.34% mut: 30%
+------
+RESULT: n: 31 l: 1 f: sigmoid e: 4 acc: 92.76% mut: 30%
+------
+RESULT: n: 79 l: 4 f: selu e: 4 acc: 96.78% mut: 30%
+------
+---- INITIALIZED ----
+RESULT: n: 36 l: 4 f: selu e: 2 acc: 94.62% mut: 30%
+------
+RESULT: n: 36 l: 3 f: selu e: 2 acc: 94.47% mut: 30%
+------
+RESULT: n: 42 l: 4 f: tanh e: 3 acc: 95.81% mut: 30%
+------
+RESULT: n: 52 l: 3 f: tanh e: 3 acc: 96.36% mut: 30%
+------
+RESULT: n: 54 l: 1 f: exponential e: 3 acc: 96.17% mut: 30%
+------
+RESULT: n: 42 l: 1 f: exponential e: 3 acc: 95.56% mut: 30%
+------
+RESULT: n: 52 l: 4 f: relu e: 2 acc: 95.35% mut: 30%
+------
+Epoch 1
+CURR BEST: n: 79 l: 4 f: selu e: 4 acc: 96.78% mut: 30%
+ALL  BEST: n: 79 l: 4 f: selu e: 4 acc: 96.78% mut: 30%
+--------
+RESULT: n: 49 l: 1 f: relu e: 4 acc: 95.63% mut: 30%
+------
+RESULT: n: 55 l: 2 f: exponential e: 3 acc: 95.64% mut: 30%
+------
+RESULT: n: 54 l: 1 f: elu e: 4 acc: 95.52% mut: 30%
+------
+RESULT: n: 74 l: 1 f: elu e: 4 acc: 95.63% mut: 30%
+------
+RESULT: n: 52 l: 2 f: relu e: 4 acc: 95.74% mut: 30%
+------
+Epoch 2
+CURR BEST: n: 79 l: 4 f: selu e: 4 acc: 96.78% mut: 30%
+ALL  BEST: n: 79 l: 4 f: selu e: 4 acc: 96.78% mut: 30%
+--------
+RESULT: n: 79 l: 3 f: tanh e: 4 acc: 96.82% mut: 30%
+------
+RESULT: n: 55 l: 2 f: elu e: 3 acc: 95.67% mut: 30%
+------
+RESULT: n: 79 l: 2 f: elu e: 4 acc: 96.81% mut: 30%
+------
+RESULT: n: 55 l: 3 f: tanh e: 3 acc: 96.02% mut: 30%
+------
+RESULT: n: 52 l: 3 f: elu e: 4 acc: 96.56% mut: 30%
+------
+RESULT: n: 54 l: 2 f: relu e: 4 acc: 96.28% mut: 30%
+------
+Epoch 3
+CURR BEST: n: 79 l: 3 f: tanh e: 4 acc: 96.82% mut: 30%
+ALL  BEST: n: 79 l: 3 f: tanh e: 4 acc: 96.82% mut: 30%
+--------
+RESULT: n: 79 l: 3 f: selu e: 4 acc: 96.52% mut: 30%
+------
+RESULT: n: 79 l: 4 f: tanh e: 4 acc: 96.93% mut: 30%
+------
+RESULT: n: 79 l: 2 f: elu e: 3 acc: 96.31% mut: 30%
+------
+RESULT: n: 81 l: 2 f: tanh e: 3 acc: 96.42% mut: 30%
+------
+RESULT: n: 77 l: 3 f: elu e: 4 acc: 96.74% mut: 30%
+------
+RESULT: n: 52 l: 3 f: tanh e: 4 acc: 96.13% mut: 30%
+------
+Epoch 4
+CURR BEST: n: 79 l: 4 f: tanh e: 4 acc: 96.93% mut: 30%
+ALL  BEST: n: 79 l: 4 f: tanh e: 4 acc: 96.93% mut: 30%
+--------
+RESULT: n: 79 l: 2 f: selu e: 4 acc: 96.39% mut: 30%
+------
+RESULT: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+------
+Epoch 5
+CURR BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+ALL  BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+--------
+RESULT: n: 79 l: 3 f: sigmoid e: 4 acc: 95.24% mut: 30%
+------
+RESULT: n: 79 l: 3 f: elu e: 4 acc: 96.67% mut: 30%
+------
+RESULT: n: 79 l: 2 f: tanh e: 4 acc: 96.82% mut: 30%
+------
+Epoch 6
+CURR BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+ALL  BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+--------
+RESULT: n: 79 l: 1 f: elu e: 4 acc: 95.92% mut: 30%
+------
+RESULT: n: 98 l: 2 f: tanh e: 4 acc: 96.88% mut: 30%
+------
+RESULT: n: 79 l: 2 f: tanh e: 3 acc: 96.34% mut: 30%
+------
+Epoch 7
+CURR BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+ALL  BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+--------
+Epoch 8
+CURR BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+ALL  BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+--------
+RESULT: n: 31 l: 4 f: elu e: 4 acc: 95.8% mut: 30%
+------
+RESULT: n: 87 l: 4 f: tanh e: 4 acc: 96.86% mut: 30%
+------
+Epoch 9
+CURR BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+ALL  BEST: n: 79 l: 4 f: elu e: 4 acc: 97.07% mut: 30%
+--------
+xMut, yMut ['0_1', '0_2', '0_3', '1_2', '1_3', '2_3'] [0.9718199729919433, 0.9722800135612488, 0.973119992017746, 0.9696999788284302, 0.9728000164031982, 0.9707000255584717]
